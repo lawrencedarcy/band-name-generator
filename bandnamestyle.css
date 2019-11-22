@@ -1,42 +1,43 @@
+html {
+    height: 100%;
+    font-size: 62.5%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Carter One', cursive;
+}
 h1 {
+    padding: 20% 0rem 0rem 0rem;
     
-    font-size: 40px;
-    font-family: "avant garde:, "arial"";
+    font-size: 3rem;
+ 
+
     text-transform: uppercase;
 }
 
 
 
-#generator {
-    
-    width: 200px;
-    height: 50px;
-   text-transform: uppercase;
-    background-color: grey;
-    color: white;
-    outline: none;
-    font-size: 15px;
 
-
-    
-}
 
 
 #name {
     
-       text-transform: uppercase;
+    text-transform: uppercase;
     
-    font-size: 105px;
-color: #FFD700;
-    padding: 10px 10px 10px 10px;
-    margin-bottom: 20px;
+    font-size: 8rem;
+    color: #FFD700;
+    padding: 1rem 1rem 1rem 1rem;
+    margin-bottom: 2rem;
     
-     transition: all 1.5s;
+    transition: all 1.5s;
     
 }
 
 body {
-            font-family: "avant garde", "arial";
+    
     
     background-color: #232323;
     color: white;
@@ -48,45 +49,66 @@ body {
 #container {
     
     text-align: center;
-    margin: 0 auto;
-    padding-top: 50px;
+   
     
 }
 
-#genreChoice {
+
+
+.genreChoice {
   
-   width: 200px;
-    height: 50px;
+   width: 20rem;
+    height: 5rem;
    text-transform: uppercase;
     background-color: grey;
     color: white;
     outline: none;
    text-align-last:center;
-    font-size: 15px;
-
-    
+    font-size: 1.5rem;
+border-radius: 5px;
     
 }
+
+.generator {
+    
+    width: 20rem;
+    height: 5rem;
+   text-transform: uppercase;
+    background-color: grey;
+    color: white;
+    outline: none;
+    font-size: 1.5rem;
+    border-radius: 5px;
+
+}
+
+.generator:hover {
+    transform: translateY(-3px);
+   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5); } 
+
+
+.generator:active, .generator:focus {
+  outline: none;
+  transform: translateY(-1px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5); }
 
 #ideas {
     
    
-         padding-top: 20px;
+         padding-top: 2rem;
  text-transform: uppercase;
-    padding-bottom: 20px;
+    padding-bottom: 2rem;
+    font-size: 1.5rem;
     
 }
 
 #display list {
     
-     padding-top: 40px;
+     padding-top: 4rem;
      text-transform: uppercase;
 }
 
-.text:hover {
 
-  opacity: 0.7;
-}
 
 .blackmetal {
     

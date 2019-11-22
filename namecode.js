@@ -28,7 +28,7 @@ var thirdGoth = ["berlin", "Party", "Black", "Green", "Party", "life", "twins", 
 
 //
 
-var newName = document.getElementById("generator");
+var newName = document.querySelector(".generator");
 
 newName.addEventListener('click', generateName);
 
@@ -75,15 +75,14 @@ document.getElementById('name').style.color = random_color;
 
 // SELECT BOX GENRE CHANGE
 
-var chooseGenre = document.getElementById("genreChoice");
-
+var chooseGenre = document.querySelector(".genreChoice");   
 chooseGenre.addEventListener("change", chooseYourGenre);
 
 
 
 function chooseYourGenre() {
     
-    var e = document.getElementById("genreChoice");
+    var e = document.querySelector(".genreChoice");
 var value = e.options[e.selectedIndex].value;
 var text = e.options[e.selectedIndex].text;
     
@@ -177,14 +176,14 @@ var seeList = document.getElementById("see list");
 
 var displayList = document.getElementById("display list");
 
-seeList.addEventListener("click", function () {
+clearList.addEventListener("click", function () {
     
     
-ideasList = ideasList.map(function(x){ return x.toUpperCase() })
+
     
-    
-    displayList.innerHTML = ideasList.join('');
-    
-})
+});
+
+
+
 //
 
